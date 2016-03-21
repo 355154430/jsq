@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var b1: UIButton!
+    //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
     //@IBOutlet weak var b1: UITextField!
     //@IBOutlet weak var b2: UITextField!
