@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var b1: UITextField!
     @IBOutlet weak var out: UITextField!
     @IBAction func add(sender: UIButton) {
+        //b1=1
         var a:Double!=0
         var b:Double!=0
         var c:Double!=0
