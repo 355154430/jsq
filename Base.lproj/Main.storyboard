@@ -58,11 +58,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g0S-jb-6Ca">
+                                <rect key="frame" x="68" y="229" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="b1111" destination="g0S-jb-6Ca" id="vga-X1-EzU"/>
                         <outlet property="x" destination="Mq3-si-gcA" id="f2W-pT-3Gt"/>
                         <outlet property="y" destination="tbE-Kn-Ngj" id="Qio-yI-C92"/>
                         <outlet property="z" destination="u16-V5-s6T" id="WZx-rV-3YH"/>

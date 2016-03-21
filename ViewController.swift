@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var b1111: UIButton!
     @IBOutlet weak var b2: UITextField!
+    // b1111
+    //blueButton.frame = CGRectMake(0, 60, 100, 30)
+    //b1111.setTitle("点我变蓝", forState: UIControlState.Normal)
+    //b1111.backgroundColor = UIColor.blueColor()
+    //b1111.tag = 101
+    //self.view.addSubview(b1111)
+    
     @IBOutlet weak var b1: UITextField!
     @IBOutlet weak var out: UITextField!
     @IBAction func add(sender: UIButton) {
         //var me.(a,v,b,)
         //b1=1
+        //var b1111==1
         var a:Double!=0
         var b:Double!=0
         var c:Double!=0
