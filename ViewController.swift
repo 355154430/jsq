@@ -17,10 +17,11 @@ class ViewController: UIViewController {
         var b:Double!=0
         var c:Double!=0
         if(!b1.text!.isEmpty){
-            a=(b1.text! as NSString).doubleValue// 定义X
+            a=(b1.text! as NSString).doubleValue// 定义b1
         }
+       //b1=1;
         if(!b2.text!.isEmpty){
-            b=(b2.text! as NSString).doubleValue// 定义Y
+            b=(b2.text! as NSString).doubleValue// 定义b2
         }
         c=a+b
         out.text="\(c)"
