@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var b1111: UIButton!
-    @IBOutlet weak var b2: UITextField!
-    @IBOutlet weak var b1: UITextField!
-    @IBOutlet weak var out: UITextField!
+    @IBOutlet weak var b1: UIButton!
+    //@IBOutlet weak var b2: UITextField!
+    //@IBOutlet weak var b1: UITextField!
+    //@IBOutlet weak var b2: UITextField!
     // b1111
     //blueButton.frame = CGRectMake(0, 60, 100, 30)
     //b1111.setTitle("点我变蓝", forState: UIControlState.Normal)
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     //self.view.addSubview(b1111)
     
 
-    @IBAction func add(sender: UIButton) {
+   /*@IBAction func add(sender: UIButton) {
         //var me.(a,v,b,)
         //b1=1
         //var b1111==1
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         c=a+b
         out.text="\(c)"
     }
+    */
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.//////
