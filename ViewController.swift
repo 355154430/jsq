@@ -12,17 +12,34 @@ class ViewController: UIViewController {
     
   
     @IBOutlet weak var Abc: UILabel!
-    var operand1: String =""
-    var operand2: String =""
-    var operator: String =""
+    var operand1: String = ""
+    var operand2: String = ""
+    var operatoe: String = ""
     
     @IBAction func jisuan(sender: UIButton) {
        // println("\(sender.currentTitle)")
         //println("\(sender.currentTitle)")
+        let value = sender.currentTitle
+        if(value == "+" || value == "-" || value == "X" ||value=="/"){
+            operatoe = value
+            return
+        }
+        else if value == "="{
+            var result = Int(operand1)! + Int(operand2)!
+            //let year = (yearofbirth.text as NSString).intValue
+            //var year = yearofbirh.text.toInt()
+            resultLabel.text = "\(result)"
+            return
+        }
+        if operatoe==""{
+            operand1 = operand1 +value
+        }
+        else{
+            operand2 = operand2 +value
+        }
         
     }
-    let value = sender.currentTitle
-    //@IBOutlet weak var b1: UIButton!
+        //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
     //@IBOutlet weak var b1: UITextField!
     //@IBOutlet weak var b2: UITextField!
