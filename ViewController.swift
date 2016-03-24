@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Abc: UILabel!
     var operand1: String = ""
     var operand2: String = ""
-    var operatoe: String = ""
+    //var operatoe: String = ""
     
    /* @IBAction func jisuan(sender: UIButton) {
        // println("\(sender.currentTitle)")
