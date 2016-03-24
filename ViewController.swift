@@ -40,18 +40,24 @@ class ViewController: UIViewController {
         
     }
     */
+    @IBAction func yi(sender: UIButton) {
+        operand1+="1"
+    }
+    @IBAction func ling(sender: UIButton) {
+        operand1+="0"
+    }
     
     @IBAction func chu(sender: UIButton) {
-        operand1 / operand2
+        Int(operand1)! / Int(operand2)!
     }
     @IBAction func cehng(sender: UIButton) {
-        operand1 * operand2
+        Int(operand1)! * Int(operand2)!
     }
     @IBAction func jian(sender: UIButton) {
-        operand1 - operand2
+        Int(operand1)! - Int(operand2)!
     }
     @IBAction func jia(sender: UIButton) {
-        operand1 + operand2
+        Int(operand1)! + Int(operand2)!
          //operand1 - operand2
     }
         //@IBOutlet weak var b1: UIButton!
