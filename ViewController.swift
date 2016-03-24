@@ -11,6 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     
   
+    @IBOutlet weak var Abc: UILabel!
+    var operand1: String =""
+    var operand2: String =""
+    var operator: String =""
+    
     @IBAction func jisuan(sender: UIButton) {
        // println("\(sender.currentTitle)")
         println("\(sender.currentTitle)")
@@ -26,7 +31,7 @@ class ViewController: UIViewController {
     //b1111.backgroundColor = UIColor.blueColor()
     //b1111.tag = 101
     //self.view.addSubview(b1111)
-    
+    //
 
    /*@IBAction func add(sender: UIButton) {
         //var me.(a,v,b,)

@@ -168,6 +168,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="Abc" destination="VTN-X5-WxC" id="j6j-sP-cqe"/>
+                        <outlet property="abc" destination="VTN-X5-WxC" id="3Jl-gC-NLX"/>
                         <outlet property="b1111" destination="g0S-jb-6Ca" id="vga-X1-EzU"/>
                     </connections>
                 </viewController>
