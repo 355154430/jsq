@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     //b1111.backgroundColor = UIColor.blueColor()
     //b1111.tag = 101
     //self.view.addSubview(b1111)
-    //
+    
 
    /*@IBAction func add(sender: UIButton) {
         //var me.(a,v,b,)
