@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+  
+    @IBAction func jisuan(sender: UIButton) {
+       // println("\(sender.currentTitle)")
+        println("\(sender.currentTitle)")
+        
+    }
     //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
     //@IBOutlet weak var b1: UITextField!
