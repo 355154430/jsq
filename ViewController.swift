@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     var operand1: String = ""
     var operand2: String = ""
     var operand: String=""
-    var x: Int
+    var x: Int=0
+    var y: Int=0
     //var operatoe: String = ""
     
    /* @IBAction func jisuan(sender: UIButton) {
@@ -90,6 +91,21 @@ class ViewController: UIViewController {
         x=4
         //Int(operand1)! + Int(operand2)!
          //operand1 - operand2
+    }
+    @IBAction func dengyu(sender: UIButton) {
+        
+        if(x==1) {
+            Int(operand1)! / Int(operand2)!
+        }
+        if(x==2) {
+            Int(operand1)! * Int(operand2)!
+        }
+        if(x==3) {
+            Int(operand1)! - Int(operand2)!
+        }
+        if(x==4) {
+            Int(operand1)! + Int(operand2)!
+        }
     }
         //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
