@@ -12,14 +12,15 @@ class ViewController: UIViewController {
     
   
     @IBOutlet weak var Abc: UILabel!
-    var operand1: String = ""
-    var operand2: String = ""
+    var operand1: Double=0
+    var operand2: Double=0
     var operand: String=""
     var x: Int=0
     var y: Int=0
-    var operand3: Double=0
+    var z: Int=0
+    var operand3: String=""
     //var operatoe: String = ""
-    
+    //x=Int(operand1)!
    /* @IBAction func jisuan(sender: UIButton) {
        // println("\(sender.currentTitle)")
         //println("\(sender.currentTitle)")
@@ -79,21 +80,25 @@ class ViewController: UIViewController {
     @IBAction func chu(sender: UIButton) {
         x=1
         y=y++
+        z=1
         //Int(operand1)! / Int(operand2)!
     }
     @IBAction func cehng(sender: UIButton) {
         x=2
         y=y++
+        z=1
         //Int(operand1)! * Int(operand2)!
     }
     @IBAction func jian(sender: UIButton) {
         x=3
         y=y++
+        z=1
         //Int(operand1)! - Int(operand2)!
     }
     @IBAction func jia(sender: UIButton) {
         x=4
         y=y++
+        z=1
         //Int(operand1)! + Int(operand2)!
          //operand1 - operand2
     }
@@ -101,24 +106,35 @@ class ViewController: UIViewController {
        
         for(y;y>0;y--)
         {
+            if(z==1) {
+                operand2=((operand3) as NSString).doubleValue
+                //operand2 =((operand3) as NSString).doubleValue
+            }
+            if(z==0) {
+                operand1=((operand3) as NSString).doubleValue
+            }
             //var  xxx:Double
             //xxx=((operand1) as NSString).doubleValue
             
             if(x==1) {
                 //(Int)(operand1 !)/(Int)(operand2 !)
-                operand3=((operand1) as NSString).doubleValue/((operand2) as NSString).doubleValue
+                //operand3=((operand1) as NSString).doubleValue/((operand2) as NSString).doubleValue
+                operand1 / operand2
             }
             if(x==2) {
                 //Int(operand1)! * Int(operand2)!
-                operand3=((operand1) as NSString).doubleValue*((operand2) as NSString).doubleValue
+                //operand3=((operand1) as NSString).doubleValue*((operand2) as NSString).doubleValue
+                operand1 * operand2
             }
             if(x==3) {
                 //Int(operand1)! - Int(operand2)!
-                operand3=((operand1) as NSString).doubleValue-((operand2) as NSString).doubleValue
+                //operand3=((operand1) as NSString).doubleValue-((operand2) as NSString).doubleValue
+                operand1 - operand2
             }
             if(x==4) {
                // Int(operand1)! + Int(operand2)!
-                operand3=((operand1) as NSString).doubleValue+((operand2) as NSString).doubleValue
+                //operand3=((operand1) as NSString).doubleValue+((operand2) as NSString).doubleValue
+                operand1 + operand2
             }
         }
     }
