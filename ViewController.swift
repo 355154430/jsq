@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var operand1: String = ""
     var operand2: String = ""
     var operand: String=""
+    var x: Int
     //var operatoe: String = ""
     
    /* @IBAction func jisuan(sender: UIButton) {
@@ -74,16 +75,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func chu(sender: UIButton) {
-        Int(operand1)! / Int(operand2)!
+        x=1
+        //Int(operand1)! / Int(operand2)!
     }
     @IBAction func cehng(sender: UIButton) {
-        Int(operand1)! * Int(operand2)!
+        x=2
+        //Int(operand1)! * Int(operand2)!
     }
     @IBAction func jian(sender: UIButton) {
-        Int(operand1)! - Int(operand2)!
+        x=3
+        //Int(operand1)! - Int(operand2)!
     }
     @IBAction func jia(sender: UIButton) {
-        Int(operand1)! + Int(operand2)!
+        x=4
+        //Int(operand1)! + Int(operand2)!
          //operand1 - operand2
     }
         //@IBOutlet weak var b1: UIButton!
