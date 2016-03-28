@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var operand: String=""
     var x: Int=0
     var y: Int=0
+    var operand3: Double=0
     //var operatoe: String = ""
     
    /* @IBAction func jisuan(sender: UIButton) {
@@ -77,34 +78,44 @@ class ViewController: UIViewController {
     
     @IBAction func chu(sender: UIButton) {
         x=1
+        y=y++
         //Int(operand1)! / Int(operand2)!
     }
     @IBAction func cehng(sender: UIButton) {
         x=2
+        y=y++
         //Int(operand1)! * Int(operand2)!
     }
     @IBAction func jian(sender: UIButton) {
         x=3
+        y=y++
         //Int(operand1)! - Int(operand2)!
     }
     @IBAction func jia(sender: UIButton) {
         x=4
+        y=y++
         //Int(operand1)! + Int(operand2)!
          //operand1 - operand2
     }
     @IBAction func dengyu(sender: UIButton) {
-        
-        if(x==1) {
-            Int(operand1)! / Int(operand2)!
-        }
-        if(x==2) {
-            Int(operand1)! * Int(operand2)!
-        }
-        if(x==3) {
-            Int(operand1)! - Int(operand2)!
-        }
-        if(x==4) {
-            Int(operand1)! + Int(operand2)!
+        for(y=10;y>0;y--)
+        {
+            //var  xxx:Double
+            //xxx=((operand1) as NSString).doubleValue
+            
+            if(x==1) {
+                (Int)(operand1 !)/(Int)(operand2 !)
+            }
+            if(x==2) {
+                Int(operand1)! * Int(operand2)!
+                operand3=((operand1) as NSString).doubleValue
+            }
+            if(x==3) {
+                Int(operand1)! - Int(operand2)!
+            }
+            if(x==4) {
+                Int(operand1)! + Int(operand2)!
+            }
         }
     }
         //@IBOutlet weak var b1: UIButton!
