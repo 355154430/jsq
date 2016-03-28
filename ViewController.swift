@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Abc: UILabel!
     var operand1: String = ""
     var operand2: String = ""
+    var operand: String=""
     //var operatoe: String = ""
     
    /* @IBAction func jisuan(sender: UIButton) {
@@ -40,11 +41,36 @@ class ViewController: UIViewController {
         
     }
     */
+    
+    @IBAction func jiu(sender: UIButton) {
+        operand+="9"
+    }
+    @IBAction func ba(sender: UIButton) {
+        operand+="8"
+    }
+    @IBAction func qi(sender: UIButton) {
+        operand+="7"
+    }
+    @IBAction func liu(sender: UIButton) {
+        operand+="6"
+    }
+    @IBAction func wu(sender: UIButton) {
+        operand+="5"
+    }
+    @IBAction func si(sender: UIButton) {
+        operand+="4"
+    }
+    @IBAction func san(sender: UIButton) {
+        operand+="3"
+    }
+    @IBAction func er(sender: UIButton) {
+        operand+="2"
+    }
     @IBAction func yi(sender: UIButton) {
-        operand1+="1"
+        operand+="1"
     }
     @IBAction func ling(sender: UIButton) {
-        operand1+="0"
+        operand+="0"
     }
     
     @IBAction func chu(sender: UIButton) {
