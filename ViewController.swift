@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     var operand3: String=""
     //var operatoe: String = ""
     //x=Int(operand1)!
-   /* @IBAction func jisuan(sender: UIButton) {
+  /* @IBAction func jisuan(sender: UIButton) {
        // println("\(sender.currentTitle)")
         //println("\(sender.currentTitle)")
         let value = sender.currentTitle
@@ -46,7 +46,9 @@ class ViewController: UIViewController {
     }
     */
     
-    @IBAction func jiu(sender: UIButton) {
+    
+    
+   @IBAction func jiu(sender: UIButton) {
         operand+="9"
     }
     @IBAction func ba(sender: UIButton) {
@@ -102,6 +104,7 @@ class ViewController: UIViewController {
         //Int(operand1)! + Int(operand2)!
          //operand1 - operand2
     }
+  
     @IBAction func dengyu(sender: UIButton) {
        
         for(y;y>0;y--)
@@ -119,25 +122,28 @@ class ViewController: UIViewController {
             if(x==1) {
                 //(Int)(operand1 !)/(Int)(operand2 !)
                 //operand3=((operand1) as NSString).doubleValue/((operand2) as NSString).doubleValue
-                operand1 / operand2
+                operand1=operand1 / operand2
             }
             if(x==2) {
                 //Int(operand1)! * Int(operand2)!
                 //operand3=((operand1) as NSString).doubleValue*((operand2) as NSString).doubleValue
-                operand1 * operand2
+                operand1=operand1 * operand2
             }
             if(x==3) {
                 //Int(operand1)! - Int(operand2)!
                 //operand3=((operand1) as NSString).doubleValue-((operand2) as NSString).doubleValue
-                operand1 - operand2
+                operand1=operand1 - operand2
             }
             if(x==4) {
                // Int(operand1)! + Int(operand2)!
                 //operand3=((operand1) as NSString).doubleValue+((operand2) as NSString).doubleValue
-                operand1 + operand2
+                operand1=operand1 + operand2
             }
         }
+        //Abc.text= operand1
     }
+   
+  
         //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
     //@IBOutlet weak var b1: UITextField!
@@ -166,8 +172,9 @@ class ViewController: UIViewController {
         }
         c=a+b
         out.text="\(c)"
-    }
-    */
+    }*/
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.//////

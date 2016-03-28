@@ -203,7 +203,6 @@
                                 </state>
                                 <connections>
                                     <action selector="jia:" destination="BYZ-38-t0r" eventType="touchDragInside" id="soW-v3-fFT"/>
-                                    <action selector="jisuan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ehE-ms-EhS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8vh-Me-W9m">
@@ -226,9 +225,6 @@
                     <connections>
                         <outlet property="Abc" destination="VTN-X5-WxC" id="j6j-sP-cqe"/>
                         <outlet property="abc" destination="VTN-X5-WxC" id="3Jl-gC-NLX"/>
-                        <outlet property="b1111" destination="g0S-jb-6Ca" id="vga-X1-EzU"/>
-                        <outlet property="er" destination="8vh-Me-W9m" id="rUD-cu-wu4"/>
-                        <outlet property="jian" destination="t39-mt-XmH" id="pYj-pK-zQz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
