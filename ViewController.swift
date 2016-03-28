@@ -104,17 +104,20 @@ class ViewController: UIViewController {
             //xxx=((operand1) as NSString).doubleValue
             
             if(x==1) {
-                (Int)(operand1 !)/(Int)(operand2 !)
+                //(Int)(operand1 !)/(Int)(operand2 !)
+                operand3=((operand1) as NSString).doubleValue/((operand2) as NSString).doubleValue
             }
             if(x==2) {
-                Int(operand1)! * Int(operand2)!
-                operand3=((operand1) as NSString).doubleValue
+                //Int(operand1)! * Int(operand2)!
+                operand3=((operand1) as NSString).doubleValue*((operand2) as NSString).doubleValue
             }
             if(x==3) {
-                Int(operand1)! - Int(operand2)!
+                //Int(operand1)! - Int(operand2)!
+                operand3=((operand1) as NSString).doubleValue-((operand2) as NSString).doubleValue
             }
             if(x==4) {
-                Int(operand1)! + Int(operand2)!
+               // Int(operand1)! + Int(operand2)!
+                operand3=((operand1) as NSString).doubleValue+((operand2) as NSString).doubleValue
             }
         }
     }
