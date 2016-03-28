@@ -98,7 +98,8 @@ class ViewController: UIViewController {
          //operand1 - operand2
     }
     @IBAction func dengyu(sender: UIButton) {
-        for(y=10;y>0;y--)
+       
+        for(y;y>0;y--)
         {
             //var  xxx:Double
             //xxx=((operand1) as NSString).doubleValue
