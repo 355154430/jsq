@@ -43,9 +43,18 @@ class ViewController: UIViewController {
             operand2 = operand2 + value
         }
         
+    @IBOutlet var huadong: UIPanGestureRecognizer!
     }
     */
     
+    @IBAction func huadong(sender: AnyObject) {
+        Abc.text = "1"
+    }
+    //@IBAction func asd(sender: AnyObject) {
+    //}
+    //@IBOutlet var huadong: [UIPanGestureRecognizer]!
+    //@IBOutlet var huadong: UIPanGestureRecognizer!
+   // @IBOutlet var huadong: UIPanGestureRecognizer!
     
     @IBAction func AC(sender: UIButton) {
         operand.removeAtIndex(operand.endIndex.predecessor())
@@ -201,6 +210,12 @@ class ViewController: UIViewController {
    //print("operand1=\(operand1)")
     }
    
+    @IBAction func baifenhao(sender: UIButton) {
+        //var www = Abc.text
+        //www = www / 100
+        //Abc.text = "\(www)"
+    }
+    
   
         //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!

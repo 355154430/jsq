@@ -233,20 +233,30 @@
                                     <action selector="AC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKf-C5-o21"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pEK-UH-2N0">
+                                <rect key="frame" x="122" y="406" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="%"/>
+                                <connections>
+                                    <action selector="baifenhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fr2-zy-oLf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="UES-Je-dVg" appends="YES" id="du6-om-ayL"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="Abc" destination="VTN-X5-WxC" id="j6j-sP-cqe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="UES-Je-dVg"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="UES-Je-dVg">
+                    <connections>
+                        <action selector="huadong:" destination="BYZ-38-t0r" id="jPI-kQ-Hbq"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="162" y="406"/>
         </scene>
