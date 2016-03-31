@@ -49,38 +49,49 @@ class ViewController: UIViewController {
     
     @IBAction func AC(sender: UIButton) {
         operand.removeAtIndex(operand.endIndex.predecessor())
+        Abc.text = "\(operand)"
     }
     
    @IBAction func jiu(sender: UIButton) {
         operand+="9"
+    Abc.text = "\(operand)"
     print("operand=\(operand)")
     }
     @IBAction func ba(sender: UIButton) {
         operand+="8"
+        Abc.text = "\(operand)"
     }
     @IBAction func qi(sender: UIButton) {
         operand+="7"
+        Abc.text = "\(operand)"
     }
     @IBAction func liu(sender: UIButton) {
         operand+="6"
+        Abc.text = "\(operand)"
     }
     @IBAction func wu(sender: UIButton) {
         operand+="5"
+        Abc.text = "\(operand)"
     }
     @IBAction func si(sender: UIButton) {
         operand+="4"
+        Abc.text = "\(operand)"
     }
     @IBAction func san(sender: UIButton) {
         operand+="3"
+        Abc.text = "\(operand)"
     }
     @IBAction func er(sender: UIButton) {
         operand+="2"
+        Abc.text = "\(operand)"
     }
     @IBAction func yi(sender: UIButton) {
         operand+="1"
+        Abc.text = "\(operand)"
     }
     @IBAction func ling(sender: UIButton) {
         operand+="0"
+        Abc.text = "\(operand)"
     }
     //Abc.text = "\(operand)"
     @IBAction func chu(sender: UIButton) {
@@ -89,6 +100,7 @@ class ViewController: UIViewController {
         z=1
         print("y=\(y)")
         operand1 = ((operand) as NSString).doubleValue
+        Abc.text = "/"
         print("operand1=\(operand1)")
         operand = ""
         //Int(operand1)! / Int(operand2)!
@@ -99,6 +111,7 @@ class ViewController: UIViewController {
         z=1
         print("y=\(y)")
         operand1 = ((operand) as NSString).doubleValue
+        Abc.text = "x"
         print("operand1=\(operand1)")
         operand = ""
         //Int(operand1)! * Int(operand2)!
@@ -109,6 +122,7 @@ class ViewController: UIViewController {
         z=1
         print("y=\(y)")
         operand1 = ((operand) as NSString).doubleValue
+        Abc.text = "-"
         print("operand1=\(operand1)")
         operand = ""
         //Int(operand1)! - Int(operand2)!
@@ -118,6 +132,7 @@ class ViewController: UIViewController {
         y=y+1
         z=1
         operand1 = ((operand) as NSString).doubleValue
+        Abc.text = "+"
         print("y=\(y)")
         print("x=\(x)")
         print("operand1=\(operand1)")
@@ -174,6 +189,12 @@ class ViewController: UIViewController {
                 operand1=operand1 + operand2
                 print("operand1=\(operand1)")
             }
+        /*var endoperand1 = (operand1 ).substringFromIndex(2)
+        if(endoperand1 == ".0") {
+            operand1.removeAtIndex
+        }
+*/
+        //if(operand1.endIndex=0)
         //var yyy: String = String(operand1)!
         //Abc.text = "\(operand1)"
         Abc.text = "\(operand1)"
