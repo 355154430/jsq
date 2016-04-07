@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     //@IBOutlet var huadong: [UIPanGestureRecognizer]!
     //@IBOutlet var huadong: UIPanGestureRecognizer!
    // @IBOutlet var huadong: UIPanGestureRecognizer!
-    
+    //
     @IBAction func AC(sender: UIButton) {
         operand.removeAtIndex(operand.endIndex.predecessor())
         Abc.text = "\(operand)"
