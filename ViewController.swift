@@ -210,12 +210,12 @@ class ViewController: UIViewController {
    //print("operand1=\(operand1)")
     }
    
-    @IBAction func baifenhao(sender: UIButton) {
-        //var www = Abc.text
-        //www = www / 100
-        //Abc.text = "\(www)"
+   /* @IBAction func baifenhao(sender: UIButton) {
+        var www: Int = Abc.text
+        www = www / 100
+        Abc.text = "\(www)"
     }
-    
+    */
   
         //@IBOutlet weak var b1: UIButton!
     //@IBOutlet weak var b2: UITextField!
