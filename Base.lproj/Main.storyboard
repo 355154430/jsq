@@ -234,7 +234,7 @@
                                     <action selector="jia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4TB-14-e9k"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="be803220f8df66f6dffd91ae2881fab0.jpg" highlightedImage="be803220f8df66f6dffd91ae2881fab0.jpg" id="kNg-dw-AEw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dcf1bc66c985190f1bad6a1c7a498f19.jpg" highlightedImage="dcf1bc66c985190f1bad6a1c7a498f19.jpg" id="kNg-dw-AEw">
                                 <rect key="frame" x="0.0" y="416" width="320" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -272,6 +272,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="be803220f8df66f6dffd91ae2881fab0.jpg" width="1200" height="900"/>
+        <image name="dcf1bc66c985190f1bad6a1c7a498f19.jpg" width="994" height="672"/>
     </resources>
 </document>
