@@ -235,7 +235,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dcf1bc66c985190f1bad6a1c7a498f19.jpg" highlightedImage="dcf1bc66c985190f1bad6a1c7a498f19.jpg" id="kNg-dw-AEw">
-                                <rect key="frame" x="0.0" y="416" width="320" height="152"/>
+                                <rect key="frame" x="0.0" y="417" width="320" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
