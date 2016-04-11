@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     var y: Int=0
     var z: Int=0
     var operand3: String=""
-    //////////////////
+    ////////////////////
     //var operatoe: String = ""
     //x=Int(operand1)!
   /* @IBAction func jisuan(sender: UIButton) {
