@@ -214,7 +214,7 @@
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="AC">
                                     <color key="titleColor" red="1" green="0.93172378451423099" blue="0.99129265548652934" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="AC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKf-C5-o21"/>
@@ -234,11 +234,6 @@
                                     <action selector="jia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4TB-14-e9k"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dcf1bc66c985190f1bad6a1c7a498f19.jpg" highlightedImage="dcf1bc66c985190f1bad6a1c7a498f19.jpg" id="kNg-dw-AEw">
-                                <rect key="frame" x="0.0" y="417" width="320" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cym-kJ-Hkk">
                                 <rect key="frame" x="32" y="333" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -252,6 +247,11 @@
                                     <action selector="chu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPV-d8-Ch4"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dcf1bc66c985190f1bad6a1c7a498f19.jpg" highlightedImage="dcf1bc66c985190f1bad6a1c7a498f19.jpg" id="kNg-dw-AEw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
