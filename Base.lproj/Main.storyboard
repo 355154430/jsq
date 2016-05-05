@@ -247,8 +247,8 @@
                                     <action selector="chu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPV-d8-Ch4"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dcf1bc66c985190f1bad6a1c7a498f19.jpg" highlightedImage="dcf1bc66c985190f1bad6a1c7a498f19.jpg" id="kNg-dw-AEw">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" id="Kq5-CY-UO2">
+                                <rect key="frame" x="0.0" y="422" width="320" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
@@ -272,6 +272,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dcf1bc66c985190f1bad6a1c7a498f19.jpg" width="994" height="672"/>
+        <image name="1.jpg" width="994" height="672"/>
     </resources>
 </document>
