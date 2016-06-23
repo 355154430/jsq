@@ -247,7 +247,7 @@ class ViewController: UIViewController {
         c=a+b
         out.text="\(c)"
     }*/
-
+//
 
     override func viewDidLoad() {
         super.viewDidLoad()
